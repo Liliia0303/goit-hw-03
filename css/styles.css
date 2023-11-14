@@ -1,9 +1,12 @@
 
 /**/.list {
   list-style-type:none; 
-
+  }
+.body {
+    font-family:Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-
 .logo_1 {
     color: var(--NAVY-BLUE, #4D5AE5);
     font-family:Raleway;
@@ -11,6 +14,8 @@
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
     text-align: left;}
     .logo_2 {
         color: var(--NAVY-BLUE, #2e2f42);
@@ -19,6 +24,8 @@
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.03em;
+        line-height: 1.17;
+        text-transform: uppercase;
         text-align: left;}
 
 .menu {
@@ -27,6 +34,7 @@
     font-size: 16px;
     background: #FFF;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;}
 
 
@@ -40,6 +48,7 @@
     font-size: 56px;
     font-weight: 700px;
     line-height: 2; /*200%*/
+    line-height: 1.5;
     letter-spacing: 0.02em;}
 
 .button_text {
@@ -49,6 +58,7 @@
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .text_address {
     font-style: normal;
@@ -85,5 +95,6 @@ color: white;
     background: #FFF;
     font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
