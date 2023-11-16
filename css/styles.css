@@ -36,40 +36,12 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-
+.list-menu {
+ color: #434455 
+}
 .list-menu :hover,
 .list-menu :focus {
     color: #404bbf
-}
-
-
-
-.tagline-text {
-    color: #FFF;
-    background: #2E2F42;
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700px;
-    line-height: 2; /*200%*/
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
-
-.button_text {
-    color:#fff;
-    background: #4D5AE5;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-.list-goal {
-    color: #2e2f42;
-    
-
-}
-.text_address {
-    font-style: normal;
 }
 
 .section-title {
@@ -83,9 +55,79 @@
 
 }
 
+.tagline-text_hero {
+    color: #FFF;
+    background: #2E2F42;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: 1.07;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.button_text {
+    color:#fff;
+    background: #4D5AE5;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.button_text :hover,
+.button_text:focus {
+    background-color: #404BBF;
+}
+
+.list-goal {
+    color: #2e2f42;
+    
+}
+.text_address {
+    font-style: normal;
+}
+.section-hero {
+    background-color:  #2e2f42;
+}
+.section-title-goal {
+    color: var(--NAVY-BLUE, #2E2F42); 
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11px; /*111.1%*/
+    letter-spacing: 0.02em;
+
+}
+
+
 .foto_background {
 color: white;
 }
+.section-text-goal {
+    color: var(--NAVY-BLUE, #2e2f42);
+    background: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2px; /*120%*/
+    letter-spacing: 0.02em;
+    
+}
+
+
+.text-goal {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    background: #FFF;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.5; 
+}
+
 .section-text {
     color: var(--NAVY-BLUE, #2e2f42);
     background: #FFF;
@@ -96,13 +138,3 @@ color: white;
     letter-spacing: 0.02em;
     
 }
-.text {
-    color: var(--NAVY-BLUE, #2e2f42);
-    font-family: Roboto;
-    font-size: 16px;
-    background: #FFF;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
