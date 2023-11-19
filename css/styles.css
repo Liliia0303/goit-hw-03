@@ -41,9 +41,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-.list-menu:hover{
-    color:#404bbf;
-}
+.list-menu:hover,
 .list-menu:focus{
     color:#404bbf;
 }
@@ -79,9 +77,7 @@
     line-height: 1.5;
     cursor: pointer;
 }
-.button_text:hover{
-    background-color:#404BBF;
-}
+.button_text:hover,
 .button_text:focus{
     background-color:#404BBF;
 }
