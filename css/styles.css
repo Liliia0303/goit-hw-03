@@ -44,13 +44,13 @@
     color: #404bbf
 }
 
-.section-title {
+.section-title_hero {
     color: var(--NAVY-BLUE, #2E2F42); 
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11px; /*111.1%*/
+    line-height: 1.07; /*111.1%*/
     letter-spacing: 0.02em;
 
 }
@@ -97,9 +97,8 @@
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11px; /*111.1%*/
+    line-height: 1.2; /*1.2%*/
     letter-spacing: 0.02em;
-
 }
 
 
@@ -112,7 +111,7 @@ color: white;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2px; /*120%*/
+    line-height: 1.2; /*120%*/
     letter-spacing: 0.02em;
     
 }
@@ -127,14 +126,70 @@ color: white;
     letter-spacing: 0.02em;
     line-height: 1.5; 
 }
-
-.section-text {
+.section-team {
+    background-color: #F4F4FD; 
+}
+.section-title-team {
+    color: var(--NAVY-BLUE, #2E2F42); 
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /*1.11%*/
+    letter-spacing: 0.02em;
+    text-transform: capitalize; 
+}
+.list-team {
+    background-color: #FFFFFF;
+    
+}
+.section-text-team {
     color: var(--NAVY-BLUE, #2e2f42);
     background: #FFF;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2px; /*120%*/
+    line-height: 1.2; /*120%*/
     letter-spacing: 0.02em;
     
 }
+
+.section-title-portfolio {
+    color: var(--NAVY-BLUE, #2E2F42); 
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /*1.11%*/
+    letter-spacing: 0.02em;
+}
+.list-portfolio {
+    color: #2e2f42;
+}
+.section-text-portfolio {
+        color: var(--NAVY-BLUE, #2e2f42);
+        background: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2px; /*120%*/
+        letter-spacing: 0.02em;
+        
+    }
+    .text-portfolio {
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        background: #FFF;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        line-height: 1.5; 
+    }
+
+
+
+
+
+
+
+
