@@ -101,9 +101,7 @@
     letter-spacing: 0.02em;
     color: #434455;
     }
-.list-address-item :hover {
-    color: #404bbf; 
-    }
+.list-address-item :hover,
 .list-address-item :focus {
     color: #404bbf;
     }
