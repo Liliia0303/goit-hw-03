@@ -37,11 +37,15 @@
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .list-menu {
- color: #434455 
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+.list-menu :hover {
+    color: #404bbf;
 }
-.list-menu :hover,
 .list-menu :focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .section-title_hero {
@@ -62,7 +66,6 @@
     font-size: 56px;
     font-weight: 700px;
     line-height: 1.07;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -76,7 +79,9 @@
     line-height: 1.5;
     cursor: pointer;
 }
-.button_text :hover,
+.button_text :hover {
+    background-color: #404BBF ;
+}
 .button_text:focus {
     background-color: #404BBF;
 }
