@@ -41,10 +41,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-.menu :hover {
+.list-menu:hover{
     color:#404bbf;
 }
-.menu :focus {
+.list-menu:focus{
     color:#404bbf;
 }
 
@@ -79,10 +79,10 @@
     line-height: 1.5;
     cursor: pointer;
 }
-.button_text :hover {
+.button_text:hover{
     background-color:#404BBF;
 }
-.button_text:focus {
+.button_text:focus{
     background-color:#404BBF;
 }
 
