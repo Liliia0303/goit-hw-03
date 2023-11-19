@@ -124,6 +124,20 @@
 .foto_background {
 color: white;
 background-color: #FFFFFF;
+width: calc((100%-72px)/4);
+
+border-radius: 0px 0px 4px 4px;
+border: none;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0),
+0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+border: none;
+}
+.team-list-foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 32px;
 }
 .section-text-goal {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -161,7 +175,9 @@ background-color: #FFFFFF;
 }
 .list-team {
     background-color: #FFFFFF;
-    
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 120px;
 }
 .section-text-team {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -193,12 +209,21 @@ background-color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.11; /*1.11%*/
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .list-portfolio {
     color: #2e2f42;
+}
+.portfolio-list-item {
+   
+    border: 1px solid #e7e9fc;
+    width: calc((100%-48px)/3);
+
 }
 .section-text-portfolio {
         color: var(--NAVY-BLUE, #2e2f42);
@@ -208,12 +233,16 @@ background-color: #FFFFFF;
         font-weight: 500;
         line-height: 1.2; /*120%*/
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
+
+
     }
     .text-portfolio {
         color: #434455;
         font-family: Roboto;
         font-size: 16px;
         background: #FFF;
+        font-style: normal;
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 1.5; 
