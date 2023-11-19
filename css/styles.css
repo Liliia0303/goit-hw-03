@@ -45,7 +45,6 @@
 .list-menu:focus{
     color:#404bbf;
 }
-
 .section-title_hero {
     color: var(--NAVY-BLUE, #2E2F42); 
     text-align: center;
@@ -54,9 +53,7 @@
     font-weight: 700;
     line-height: 1.07; /*111.1%*/
     letter-spacing: 0.02em;
-
 }
-
 .tagline-text_hero {
     color: #FFF;
     background: #2E2F42;
