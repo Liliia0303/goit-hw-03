@@ -37,14 +37,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .list-menu {
-    color: #434455;
+    color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-.list-menu :hover {
+.menu :hover {
     color:#404bbf;
 }
-.list-menu :focus {
+.menu :focus {
     color:#404bbf;
 }
 
