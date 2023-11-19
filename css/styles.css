@@ -109,6 +109,7 @@
 
 .foto_background {
 color: white;
+background-color: #FFFFFF;
 }
 .section-text-goal {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -158,6 +159,20 @@ color: white;
     letter-spacing: 0.02em;
     
 }
+.text-team {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    background: #FFF;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.5; 
+}
+
+
+
+
+
 
 .section-title-portfolio {
     color: var(--NAVY-BLUE, #2E2F42); 
