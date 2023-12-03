@@ -8,6 +8,23 @@
     color: #434455;
     background-color: #FFFFFF;
 }
+.body-container {
+    width: 1440;
+    height: 3300;
+    background: #FFFFFF;
+    padding-left: 370px;
+    padding-top: -1169px;  
+}
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+.header-container { 
+    max-width: 
+    padding-left:  
+    padding-right:  
+    margin-left:  
+    margin-right:  
+    }
 .logo_a {
     text-decoration: none;
     color: var(--NAVY-BLUE, #4D5AE5);
@@ -231,6 +248,9 @@ border: none;
     border: 1px solid #e7e9fc;
     width: calc((100%-48px)/3);
 
+}
+.portfolio-list-foto {
+    display: block;
 }
 .section-text-portfolio {
         color: var(--NAVY-BLUE, #2e2f42);
