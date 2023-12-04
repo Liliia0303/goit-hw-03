@@ -43,7 +43,9 @@
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-    text-align: left;}
+    text-align: left;
+    margin-right: 76px
+}
     .logo_b {
         text-decoration: none;
         color: var(--NAVY-BLUE, #2e2f42);
@@ -54,7 +56,14 @@
         letter-spacing: 0.03em;
         line-height: 1.17;
         text-transform: uppercase;
-        text-align: left;}
+        text-align: left;
+        margin-right: 76px
+    }
+.top-line-menu {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .menu {
     color:#2e2f42;
@@ -75,6 +84,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
+    padding: 24px 0;
     }
 .list-menu:hover,
 .list-menu:focus{
@@ -91,7 +101,7 @@
     padding: 188px 0;
 }
 .section1-container {
-    
+    display: flex;
 }
 .tagline-text_hero {
     display: block;
@@ -103,7 +113,7 @@
     max-width: 496px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align:center;
+    text-align: center;
 }
 .button_text {
     display: block;
@@ -166,6 +176,7 @@
     
 }
 .section-title-goal {
+    visibility: hidden;
     color: var(--NAVY-BLUE, #2E2F42); 
     text-align: center;
     font-family: Roboto;
@@ -280,7 +291,7 @@
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    text-align: center; 
+    text-align: center;
 }
 .section-portfolio {
     padding-top: 120px; 
@@ -325,6 +336,12 @@
 }
 .portfolio-list-foto {
     display: block;
+}
+.portfolio-card-item {
+    display: block;
+    text-align: center;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 .section-text-portfolio {
         color: var(--NAVY-BLUE, #2e2f42);
