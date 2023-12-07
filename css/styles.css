@@ -25,8 +25,8 @@
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    padding-left: 0 15px; 
-    padding-right: 0 15px;      
+    padding-left: 15px; 
+    padding-right: 15px;      
     }
  .top-line { 
     display: flex;
@@ -60,6 +60,7 @@
         margin-right: 76px
     }
 .top-line-menu {
+    display: flex; 
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -102,7 +103,16 @@
 }
 .section1-container {
     display: flex;
+
 }
+
+.container1 {
+    display: flex;
+    width: 496px;
+    height: 120px;
+    
+    
+    }
 .tagline-text_hero {
     display: block;
     color: #FFF;
@@ -143,8 +153,10 @@
 
 .text_address {
     font-style: normal;
+    gap: 40px;
 }
-.list-address {
+.list-address { 
+     
     text-decoration: none;
     color: #434455;
     font-family: Roboto;
