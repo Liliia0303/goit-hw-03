@@ -95,6 +95,7 @@
     color:#404bbf;
 }
 .text_address {
+    display: flex;
     font-style: normal;
     gap: 40px;
 }
@@ -110,20 +111,13 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
-    padding: 24px 0 24px;
-    
+    padding: 24px 0 24px;   
     }
 .list-menu-address:hover,
 .list-menu-address:focus{
     color:#404bbf;
 }   
-
-
-
-
-
 .list-address { 
-     
     text-decoration: none;
     color: #434455;
     font-family: Roboto;
@@ -132,16 +126,12 @@
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5; 
-    margin-right: 40px (first child);
-    margin-right: 0 (last child);
-}
+    }
 .list-address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
-
     }
 .text_address :hover,
 .text_address :focus {
@@ -153,21 +143,6 @@
     margin: 40px auto;
     padding: 0 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-hero {
     color: var(--NAVY-BLUE, #2E2F42); 
@@ -181,6 +156,7 @@
 }
 .section1-container {
     display: flex;
+   
 
 }
 
@@ -188,6 +164,7 @@
     display: flex;
     width: 496px;
     height: 120px;
+    text-align: center;
     
     
     }
@@ -203,7 +180,7 @@
     letter-spacing: 0.02em;
     text-align: center;
 }
-.button_text {
+   .button_text {
     display: block;
     color: #fff;
     background: var(--NAVY-BLUE,#4D5AE5);
@@ -337,6 +314,9 @@
     padding-top: 32px; 
     padding-bottom: 32px;
 }
+.card-content {
+    display: flex;
+}
 .section-text-team {
     color: var(--NAVY-BLUE, #2e2f42);
     background: #FFF;
@@ -418,7 +398,6 @@
         line-height: 1.2; /*120%*/
         letter-spacing: 0.02em;
         margin-bottom: 8px;
-
     }
     .text-portfolio {
         color: #434455;
