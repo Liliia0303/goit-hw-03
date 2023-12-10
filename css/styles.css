@@ -1,7 +1,7 @@
 
 /**/.list {
     display: flex;
-    list-style-type:none;
+    list-style-type: none;
     list-style: none;
     gap: 40px;
 
@@ -30,6 +30,9 @@
     }
  .top-line { 
     display: flex;
+    list-style-type: none;
+    list-style: none;
+    gap: 40px;
     align-items: center;
     
      }   
@@ -85,12 +88,87 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
-    padding: 24px 0;
+    padding: 24px 0 24px;
     }
 .list-menu:hover,
 .list-menu:focus{
     color:#404bbf;
 }
+.text_address {
+    font-style: normal;
+    gap: 40px;
+}
+.address-container {
+    display: flex;
+    gap: 40px;
+}
+.list-menu-address {
+    display: flex;  
+    list-style: none;
+    text-decoration: none;
+    color: #2e2f42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 40px;
+    padding: 24px 0 24px;
+    
+    }
+.list-menu-address:hover,
+.list-menu-address:focus{
+    color:#404bbf;
+}   
+
+
+
+
+
+.list-address { 
+     
+    text-decoration: none;
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    background: #FFF;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.5; 
+    margin-right: 40px (first child);
+    margin-right: 0 (last child);
+}
+.list-address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+
+    }
+.text_address :hover,
+.text_address :focus {
+    color: #404bbf;
+    }
+.address-container {
+    display: flex; 
+    width: 400px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-hero {
     color: var(--NAVY-BLUE, #2E2F42); 
     text-align: center;
@@ -151,31 +229,7 @@
     background-color:#404BBF;
 }
 
-.text_address {
-    font-style: normal;
-    gap: 40px;
-}
-.list-address { 
-     
-    text-decoration: none;
-    color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    background: #FFF;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.5; 
-}
-.list-address-item {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    }
-.text_address :hover,
-.text_address :focus {
-    color: #404bbf;
-    }
+
 
 
 .section-hero {
