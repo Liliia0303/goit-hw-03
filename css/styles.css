@@ -316,6 +316,9 @@
 }
 .card-content {
     display: flex;
+    text-align: center;
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 .section-text-team {
     color: var(--NAVY-BLUE, #2e2f42);
